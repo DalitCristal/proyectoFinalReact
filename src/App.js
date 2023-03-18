@@ -1,6 +1,15 @@
 import React from "react";
 import "./App.css";
+import NavBar from "./components/NavBar/NavBar.js";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer.js";
 
-export default function App() {
-  return <div className="App-header"> HOLA MUNDO! </div>;
-}
+const App = () => {
+  return (
+    <div className="App">
+      <NavBar />
+      <ItemListContainer greeting={"Bienvenidos a E-commerce!"} />
+    </div>
+  );
+};
+
+export default App;
