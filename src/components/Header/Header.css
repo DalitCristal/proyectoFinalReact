@@ -1,7 +1,6 @@
 .header {
   display: flex;
   justify-content: end;
-  background-color: #f7e0e0;
 }
 .header > a {
   text-transform: uppercase;
