@@ -22,7 +22,7 @@ const ProductCard = ({
           <Typography variant="body2" color="text.secondary">
             {ProductDetails}
           </Typography>
-          <Typography>Cantidad disponible: {ProductCant}</Typography>
+          <Typography>Quantities Available: {ProductCant}</Typography>
         </CardContent>
       </CardActionArea>
     </Card>

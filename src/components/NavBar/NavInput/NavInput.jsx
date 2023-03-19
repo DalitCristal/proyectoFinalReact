@@ -6,7 +6,7 @@ function NavInput() {
     <div className="text-field">
       <TextField
         id="outlined-search"
-        label="¿Qué estas buscando?"
+        label="What are you looking for?"
         type="search"
       />
     </div>
