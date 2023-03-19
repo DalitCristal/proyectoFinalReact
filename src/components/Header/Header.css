@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: end;
+  background-color: #f7e0e0;
+}
+.header > a {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 12px;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  border: 0px;
+  padding: 12px;
+}
+.header > a:hover {
+  text-decoration: underline;
+}

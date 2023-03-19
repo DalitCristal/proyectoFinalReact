@@ -1,0 +1,23 @@
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navBar > .buttons > a {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 16px;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  border: 0px;
+  padding: 12px;
+}
+.navBar > .buttons > a:hover {
+  color: #545050;
+}
+.navBar > .logo-dc > p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
