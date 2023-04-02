@@ -1,5 +1,5 @@
-import React from "react";
-import logo from "./LogoImg/logo-dc.png";
+import logo from "./logo-dc.png";
+import "./NavLogoContainer.css";
 
 function NavLogoContainer() {
   return (

@@ -1,7 +1,9 @@
-import React from "react";
-
-const Button = ({ children }) => {
-  return <button> {children} </button>;
+const Button = (props) => {
+  return (
+    <button type="submit" onClick={props.onClick} className={props.className}>
+      {props.children}
+    </button>
+  );
 };
 
 export default Button;

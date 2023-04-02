@@ -1,0 +1,15 @@
+.CardItem {
+  width: 30vw;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(221, 221, 214, 0.795);
+}
+
+.ItemImg {
+  width: 30vw;
+  border-radius: 6px;
+}

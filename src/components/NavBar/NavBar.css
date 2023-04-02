@@ -6,11 +6,13 @@
 .navBar > .buttons > li {
   list-style-type: none;
 }
-.buttons {
-  display: flex;
-  justify-content: space-evenly;
+.navBar > .logo-dc > p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
 }
-.navBar > .buttons > li > button {
+.btnNav {
   text-transform: uppercase;
   background-color: #ffffff;
   color: #000000;
@@ -19,12 +21,10 @@
   border: 0px;
   padding: 12px;
 }
-.navBar > .buttons > li > button:hover {
+.btnNav:hover {
   color: #545050;
 }
-.navBar > .logo-dc > p {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
 }
