@@ -6,13 +6,15 @@
 .navBar > .buttons > li {
   list-style-type: none;
 }
-.navBar > .logo-dc > p {
+.navBar > a {
+  text-decoration-line: none;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
 }
 .btnNav {
+  cursor: pointer;
   text-transform: uppercase;
   background-color: #ffffff;
   color: #000000;
@@ -23,6 +25,8 @@
 }
 .btnNav:hover {
   color: #545050;
+  font-size: 18px;
+  border-bottom: solid 1px #d4ac78;
 }
 .buttons {
   display: flex;

@@ -1,3 +1,9 @@
+:root {
+  --black: #000000;
+  --tono-crema-neutro: #fffdd0;
+  --gris-oscuro: #4e4d4a;
+}
+
 .counter {
   display: flex;
   flex-direction: column;
@@ -12,11 +18,19 @@
 
 .btn {
   border: none;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: var(--tono-crema-neutro);
+  border: none;
+  border-radius: 10px;
+  font-size: 0.9rem;
   padding: 0.5rem;
-  background-color: #e99825;
+  transition: all 0.3s;
+  color: var(--gris-oscuro);
 }
 
 .number {
   font-size: 1.5rem;
   text-align: center;
+  color: var(--black);
 }

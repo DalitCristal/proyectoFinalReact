@@ -1,6 +1,13 @@
+:root {
+  --gris-oscuro: #4e4d4a;
+  --marron-amarillento: #8e7d5a;
+  --naranja-calido: #ffb347;
+  --tono-crema-neutro: #fffdd0;
+  --white: #ffffff;
+}
 .footer {
   text-align: center;
-  color: #fff;
+  color: var(--white);
   padding: 0.5rem;
-  background-color: brown;
+  background-color: var(--marron-amarillento);
 }

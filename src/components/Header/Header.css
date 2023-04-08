@@ -13,5 +13,6 @@
   padding: 1rem;
 }
 .header > a:hover {
-  text-decoration: underline;
+  text-decoration: underline #d4ac78;
+  color: #d4ac78;
 }

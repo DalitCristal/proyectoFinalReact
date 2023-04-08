@@ -2,6 +2,8 @@
 import "./ItemDetailContainer.css";
 //HOOKS
 import { useEffect, useState } from "react";
+//HOC
+import { productConIva } from "../HocIva/HocIva.jsx";
 //ASYNCMOCK
 import { getProductById } from "../../asyncmock";
 //COMPONENTS
@@ -13,7 +15,6 @@ const ItemDetailContainer = () => {
   const [product, setProduct] = useState(null);
 
   const { id } = useParams();
-  console.log(id);
 
   useEffect(() => {
     getProductById(id)
@@ -25,9 +26,10 @@ const ItemDetailContainer = () => {
       });
   }, [id]);
 
+  const NewPrice = productConIva(ItemDetail);
   return (
     <div className="ItemDetailContainer">
-      <ItemDetail {...product} />
+      <NewPrice {...product} />
     </div>
   );
 };

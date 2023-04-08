@@ -4,7 +4,6 @@ import "./ItemDetail.css";
 import ItemCount from "../ItemCount/ItemCount";
 
 const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
-  console.log(id);
   return (
     <article className="CardItem" id={id}>
       <h2>{name} </h2>

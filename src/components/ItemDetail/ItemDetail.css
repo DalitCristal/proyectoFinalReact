@@ -1,3 +1,10 @@
+:root {
+  --bg-card: #d4ac78;
+  --gris-oscuro: #4e4d4a;
+  --marron-amarillento: #8e7d5a;
+  --naranja-calido: #ffb347;
+  --tono-crema-neutro: #fffdd0;
+}
 .CardItem {
   width: 30vw;
   border-radius: 10px;
@@ -6,7 +13,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(221, 221, 214, 0.795);
+  background-color: var(--bg-card);
+  color: var(--gris-oscuro);
 }
 
 .ItemImg {

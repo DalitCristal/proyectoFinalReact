@@ -38,7 +38,7 @@ export default App;
 
 /* 
 OBSERVACIONES:
-repo: “PreEntrega2+Apellido”
+
 * El home muestra sin problemas todo el catologo de productos
 * /category/:category:id navega y te muestra respectivos productos pero no muestra las imagenes
 * /item/:id navega con el id correspondiente pero no muestra en la card la informacion correspondiente
